@@ -10,6 +10,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>My Landing Page</title>
   </head>
   <body>
@@ -72,7 +73,7 @@
         quis dolor porro suscipit impedit!
       </p>
     </div>
-    <!-- Model -->
+    <!-- Modal -->
     <div class="modal-container" id="modal">
       <div class="modal">
         <button class="close-btn" id="close">
@@ -86,11 +87,21 @@
           <form class="modal-form">
             <div>
               <label for="name">Name</label>
-              <input type="text" id="name" placeholder="Enter Name" />
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter Name"
+                class="form-input"
+              />
             </div>
             <div>
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Enter Email" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Email"
+                class="form-input"
+              />
             </div>
             <div>
               <label for="password">Password</label>
@@ -98,6 +109,7 @@
                 type="password"
                 id="password"
                 placeholder="Enter Password"
+                class="form-input"
               />
             </div>
             <div>
@@ -106,6 +118,7 @@
                 type="password"
                 id="password"
                 placeholder="Enter Password"
+                class="form-input"
               />
             </div>
             <input type="submit" value="Submit" class="submit-btn" />
@@ -113,5 +126,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
